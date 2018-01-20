@@ -1,0 +1,19 @@
+{
+    "name": "lyhiving/snoopy",
+    "description": "PHP Crawler is a simple website search script for small-to-medium websites. The only requrements are PHP and MySQL, no shell access required.",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "lyhiving",
+            "email": "lyhiving@gmail.com"
+        }
+    ],
+	"require": {
+		"php": ">=5.4"
+	},
+    "autoload": {
+        "psr-4": {
+            "Snoopy\\": "src/"
+        }
+    }
+}
